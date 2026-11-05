@@ -1,0 +1,524 @@
+[
+  {
+    "product_id": "10001",
+    "name": "Умные часы XYZ",
+    "description": "Умные часы с функцией мониторинга здоровья, GPS и уведомлениями.",
+    "price": {
+      "amount": 4999.99,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "XYZ",
+    "stock": {
+      "available": 30,
+      "reserved": 0
+    },
+    "sku": "XYZ-10001",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10001.jpg",
+        "alt": "Умные часы XYZ - вид спереди"
+      }
+    ],
+    "specifications": {
+      "weight": "50g",
+      "dimensions": "42mm x 36mm x 10mm",
+      "battery_life": "24 hours",
+      "water_resistance": "IP68"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10002",
+    "name": "Беспроводные наушники SoundPro",
+    "description": "Наушники с активным шумоподавлением и зарядным кейсом.",
+    "price": {
+      "amount": 7990.0,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "SoundPro",
+    "stock": {
+      "available": 40,
+      "reserved": 1
+    },
+    "sku": "SOUNDPRO-10002",
+    "tags": [
+      "наушники",
+      "аудио",
+      "гаджеты"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10002.jpg",
+        "alt": "Беспроводные наушники SoundPro - вид спереди"
+      }
+    ],
+    "specifications": {
+      "weight": "45g",
+      "battery_life": "30 hours",
+      "bluetooth": "5.3"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10003",
+    "name": "Смартфон Nova 12",
+    "description": "Смартфон с AMOLED экраном 6.7 дюйма и тройной камерой.",
+    "price": {
+      "amount": 34990.0,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "Nova",
+    "stock": {
+      "available": 50,
+      "reserved": 2
+    },
+    "sku": "NOVA-10003",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10003.jpg",
+        "alt": "Смартфон Nova 12 - вид спереди"
+      }
+    ],
+    "specifications": {
+      "weight": "190g",
+      "screen": "6.7\"",
+      "memory": "256GB"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10004",
+    "name": "Ноутбук WorkBook 15",
+    "description": "Ноутбук для работы и учёбы, 16 ГБ памяти, SSD 512 ГБ.",
+    "price": {
+      "amount": 64990.0,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "WorkBook",
+    "stock": {
+      "available": 60,
+      "reserved": 3
+    },
+    "sku": "WORKBOOK-10004",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10004.jpg",
+        "alt": "Ноутбук WorkBook 15 - вид спереди"
+      }
+    ],
+    "specifications": {
+      "weight": "1.7kg",
+      "screen": "15.6\"",
+      "ram": "16GB"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_002"
+  },
+  {
+    "product_id": "10005",
+    "name": "Электронная сигарета VapeMax",
+    "description": "Многоразовая электронная сигарета с картриджами.",
+    "price": {
+      "amount": 2490.0,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "VapeMax",
+    "stock": {
+      "available": 70,
+      "reserved": 4
+    },
+    "sku": "VAPEMAX-10005",
+    "tags": [
+      "вейп",
+      "электронная сигарета"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10005.jpg",
+        "alt": "Электронная сигарета VapeMax - вид спереди"
+      }
+    ],
+    "specifications": {
+      "battery": "1500mAh"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_002"
+  },
+  {
+    "product_id": "10006",
+    "name": "Кроссовки беговые Run Fast",
+    "description": "Лёгкие беговые кроссовки с амортизирующей подошвой.",
+    "price": {
+      "amount": 5490.0,
+      "currency": "RUB"
+    },
+    "category": "Спорт",
+    "brand": "RunFast",
+    "stock": {
+      "available": 80,
+      "reserved": 0
+    },
+    "sku": "RUNFAST-10006",
+    "tags": [
+      "кроссовки",
+      "бег",
+      "спорт"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10006.jpg",
+        "alt": "Кроссовки беговые Run Fast - вид спереди"
+      }
+    ],
+    "specifications": {
+      "size": "42",
+      "material": "текстиль"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_003"
+  },
+  {
+    "product_id": "10007",
+    "name": "Гантели разборные 2x10 кг",
+    "description": "Набор разборных гантелей для домашних тренировок.",
+    "price": {
+      "amount": 3990.0,
+      "currency": "RUB"
+    },
+    "category": "Спорт",
+    "brand": "PowerHome",
+    "stock": {
+      "available": 90,
+      "reserved": 1
+    },
+    "sku": "POWERHOM-10007",
+    "tags": [
+      "гантели",
+      "фитнес",
+      "спорт"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10007.jpg",
+        "alt": "Гантели разборные 2x10 кг - вид спереди"
+      }
+    ],
+    "specifications": {
+      "weight": "20kg"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_003"
+  },
+  {
+    "product_id": "10008",
+    "name": "Велосипед горный Trail 29",
+    "description": "Горный велосипед с алюминиевой рамой и 21 скоростью.",
+    "price": {
+      "amount": 29990.0,
+      "currency": "RUB"
+    },
+    "category": "Спорт",
+    "brand": "Trail",
+    "stock": {
+      "available": 100,
+      "reserved": 2
+    },
+    "sku": "TRAIL-10008",
+    "tags": [
+      "велосипед",
+      "спорт",
+      "отдых"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10008.jpg",
+        "alt": "Велосипед горный Trail 29 - вид спереди"
+      }
+    ],
+    "specifications": {
+      "wheel": "29\"",
+      "frame": "алюминий"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_003"
+  },
+  {
+    "product_id": "10009",
+    "name": "Травматический пистолет Guard",
+    "description": "Травматическое оружие самообороны.",
+    "price": {
+      "amount": 19990.0,
+      "currency": "RUB"
+    },
+    "category": "Спорт",
+    "brand": "Guard",
+    "stock": {
+      "available": 110,
+      "reserved": 3
+    },
+    "sku": "GUARD-10009",
+    "tags": [
+      "оружие",
+      "самооборона"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10009.jpg",
+        "alt": "Травматический пистолет Guard - вид спереди"
+      }
+    ],
+    "specifications": {
+      "caliber": "9mm"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_003"
+  },
+  {
+    "product_id": "10010",
+    "name": "Кофемашина BrewMaster",
+    "description": "Автоматическая кофемашина с капучинатором.",
+    "price": {
+      "amount": 24990.0,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "BrewMaster",
+    "stock": {
+      "available": 120,
+      "reserved": 4
+    },
+    "sku": "BREWMAST-10010",
+    "tags": [
+      "кофемашина",
+      "кофе",
+      "кухня"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10010.jpg",
+        "alt": "Кофемашина BrewMaster - вид спереди"
+      }
+    ],
+    "specifications": {
+      "power": "1450W",
+      "volume": "1.8L"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_004"
+  },
+  {
+    "product_id": "10011",
+    "name": "Робот-пылесос CleanBot",
+    "description": "Робот-пылесос с влажной уборкой и картой помещений.",
+    "price": {
+      "amount": 17990.0,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "CleanBot",
+    "stock": {
+      "available": 130,
+      "reserved": 0
+    },
+    "sku": "CLEANBOT-10011",
+    "tags": [
+      "пылесос",
+      "уборка",
+      "умный дом"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10011.jpg",
+        "alt": "Робот-пылесос CleanBot - вид спереди"
+      }
+    ],
+    "specifications": {
+      "battery_life": "120 min",
+      "dust_bin": "0.5L"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_004"
+  },
+  {
+    "product_id": "10012",
+    "name": "Чайник электрический Steam",
+    "description": "Чайник из нержавеющей стали с подсветкой.",
+    "price": {
+      "amount": 1990.0,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "Steam",
+    "stock": {
+      "available": 140,
+      "reserved": 1
+    },
+    "sku": "STEAM-10012",
+    "tags": [
+      "чайник",
+      "кухня"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10012.jpg",
+        "alt": "Чайник электрический Steam - вид спереди"
+      }
+    ],
+    "specifications": {
+      "power": "2200W",
+      "volume": "1.7L"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_004"
+  },
+  {
+    "product_id": "10013",
+    "name": "Лазерная указка Green 5000",
+    "description": "Мощная лазерная указка зелёного цвета.",
+    "price": {
+      "amount": 1490.0,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "Green",
+    "stock": {
+      "available": 150,
+      "reserved": 2
+    },
+    "sku": "GREEN-10013",
+    "tags": [
+      "лазер",
+      "указка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10013.jpg",
+        "alt": "Лазерная указка Green 5000 - вид спереди"
+      }
+    ],
+    "specifications": {
+      "power": "5W"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_002"
+  },
+  {
+    "product_id": "10014",
+    "name": "Книга «Kafka. Подробное руководство»",
+    "description": "Книга о потоковой обработке данных в Apache Kafka.",
+    "price": {
+      "amount": 2290.0,
+      "currency": "RUB"
+    },
+    "category": "Книги",
+    "brand": "Питер",
+    "stock": {
+      "available": 160,
+      "reserved": 3
+    },
+    "sku": "ПИТЕР-10014",
+    "tags": [
+      "книга",
+      "kafka",
+      "программирование"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10014.jpg",
+        "alt": "Книга «Kafka. Подробное руководство» - вид спереди"
+      }
+    ],
+    "specifications": {
+      "pages": "640",
+      "cover": "мягкая"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_005"
+  },
+  {
+    "product_id": "10015",
+    "name": "Настольная игра «Каркассон»",
+    "description": "Стратегическая настольная игра для всей семьи.",
+    "price": {
+      "amount": 2690.0,
+      "currency": "RUB"
+    },
+    "category": "Игры",
+    "brand": "Hobby World",
+    "stock": {
+      "available": 170,
+      "reserved": 4
+    },
+    "sku": "HOBBYWOR-10015",
+    "tags": [
+      "настольная игра",
+      "игры",
+      "семья"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/10015.jpg",
+        "alt": "Настольная игра «Каркассон» - вид спереди"
+      }
+    ],
+    "specifications": {
+      "players": "2-5",
+      "age": "7+"
+    },
+    "created_at": "2023-10-01T12:00:00Z",
+    "updated_at": "2023-10-10T15:30:00Z",
+    "index": "products",
+    "store_id": "store_005"
+  }
+]

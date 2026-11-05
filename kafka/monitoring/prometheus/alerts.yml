@@ -1,0 +1,56 @@
+groups:
+  - name: kafka-brokers
+    rules:
+      - alert: KafkaBrokerDown
+        expr: up{job=~"kafka-[0-9]+|copy-kafka-[0-9]+"} == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Kafka broker {{ $labels.job }} недоступен"
+          description: "Prometheus не может скрейпить {{ $labels.instance }} более 30 секунд."
+
+      - alert: KafkaUnderReplicatedPartitions
+        expr: kafka_server_replicamanager_underreplicatedpartitions{job=~"kafka-[0-9]+|copy-kafka-[0-9]+"} > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Under-replicated partitions на {{ $labels.job }}"
+          description: "Количество under-replicated partitions: {{ $value }} ({{ $labels.instance }})."
+
+      - alert: KafkaOfflinePartitions
+        expr: kafka_controller_kafkacontroller_offlinepartitionscount{job=~"kafka-[0-9]+|copy-kafka-[0-9]+"} > 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Offline partitions на {{ $labels.job }}"
+          description: "Количество offline partitions: {{ $value }} ({{ $labels.instance }})."
+
+      - alert: KafkaUnderMinIsrPartitions
+        expr: kafka_server_replicamanager_underminisrpartitioncount{job=~"kafka-[0-9]+|copy-kafka-[0-9]+"} > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Partitions ниже min.insync.replicas на {{ $labels.job }}"
+          description: "Количество partitions ниже min ISR: {{ $value }} ({{ $labels.instance }})."
+
+      - alert: KafkaNoActiveControllerMain
+        expr: sum(kafka_controller_kafkacontroller_activecontrollercount{job=~"kafka-[0-9]+"}) != 1
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "В основном кластере нет активного контроллера"
+          description: "Суммарный ActiveControllerCount = {{ $value }}."
+
+      - alert: KafkaNoActiveControllerCopy
+        expr: sum(kafka_controller_kafkacontroller_activecontrollercount{job=~"copy-kafka-[0-9]+"}) != 1
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Во втором кластере нет активного контроллера"
+          description: "Суммарный ActiveControllerCount = {{ $value }}."

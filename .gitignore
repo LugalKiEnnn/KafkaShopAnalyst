@@ -1,0 +1,21 @@
+# Пароли
+.env
+
+# Сертификаты
+kafka/secrets
+
+# Сборка Maven
+target/
+analytics/hdfs-consumer/target
+analytics/spark-analytics/target
+common/target
+kafka-streams/target
+sources/ban-api/target
+sources/client-api/target
+sources/shop-api/target
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+hadoop_data/

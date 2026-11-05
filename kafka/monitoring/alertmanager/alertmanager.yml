@@ -1,0 +1,21 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: alert-sink
+  group_by: ["alertname", "job"]
+  group_wait: 10s
+  group_interval: 30s
+  repeat_interval: 1h
+
+receivers:
+  - name: alert-sink
+    webhook_configs:
+      - url: http://alert-sink:8080/alerts
+        send_resolved: true
+
+# Для Telegram добавьте отдельный receiver и route, например:
+#  - name: telegram
+#    telegram_configs:
+#      - bot_token: "<token>"
+#        chat_id: <chat_id>
